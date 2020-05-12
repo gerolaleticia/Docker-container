@@ -1,5 +1,5 @@
 # Docker-container
-Example of docker image for a python application. Source: [IBM Cognitive Class](). 
+Example of docker image for a python application. Source: [IBM Cognitive Class](https://cognitiveclass.ai/courses/docker-essentials). 
 
 **Dockerfile:** contains the code to build the Docker image
 

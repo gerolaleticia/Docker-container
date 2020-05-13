@@ -4,15 +4,15 @@ RUN pip install flask
 CMD ["python","app.py"]
 COPY app.py /app.py
 
-2. Run the following comand
+2. Run the following comand:
 
 docker image build -t python-hello-world [insert the file path here]
 
-3. Check if it worked with the following command
+3. Check if it worked executing:
 
 docker image ls
 
-Expected outpu:
+Expected output:
 
 REPOSITORY           TAG                 IMAGE ID            CREATED             SIZE
 python-hello-world   latest              f1b2781b3111        26 seconds ago      99.3MB
@@ -22,10 +22,10 @@ python               3.6.1-alpine        c86415c03c37        8 days ago         
 
 docker login
 
-5. Tag the image with your username
+5. Tag the image with your username:
 
 docker tag python-hello-world [dockerhub username]/python-hello-world
 
-6. Use docker push to push to docker hub
+6. Use docker push to push to docker hub:
 
 docker push [docker hub username]/python-hello-world
